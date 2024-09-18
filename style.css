@@ -10,7 +10,7 @@ Reset & Normalization
 *::before,
 *::after{
     box-sizing: border-box;
-    font-family: HankenGrotesk;
+    font-family: "HankenGrotesk", sans-serif;
 }
 
 body{
@@ -169,16 +169,20 @@ main{
 
 :nth-child(1 of .summary-item){
     background-color: hsla(var(--clr-red-hsl), 0.1);
+    color: hsl(var(--clr-red-hsl));
 }
 
 :nth-child(2 of .summary-item){
     background-color: hsla(var(--clr-orange-hsl), 0.1);
+    color: hsl(var(--clr-orange-hsl));
 }
 :nth-child(3 of .summary-item){
     background-color: hsla(var(--clr-green-hsl), 0.1);
+    color: hsl(var(--clr-green-hsl));
 }
 :nth-child(4 of .summary-item){
     background-color: hsla(var(--clr-blue-hsl), 0.1);
+    color: hsl(var(--clr-blue-hsl));
 }
 
 .results p.result-rank{
